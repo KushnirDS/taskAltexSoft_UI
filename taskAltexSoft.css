@@ -1,9 +1,8 @@
 
 .clearcut{
-    /* border: 5px solid black; */
     width: 1200px;
     margin: auto;
-    background-color: gray;
+    background-color: black;
 }
 
 .clearcut .middle {
@@ -17,7 +16,6 @@
 }
 
 .clearcut .title div{
-    /* border: 1px solid black; */
     display: inline-block;
     margin-left: 20px;
 }
@@ -51,12 +49,9 @@
     margin: auto;
 }
 
-
 .clearcut .shell .tablRight, .tablMiddle, .review  {
-    /* border: 1px solid black; */
     display: inline-block;
     width: 375px;
-    /* height: 500px; */
     margin-top: 30px;
 }
 
@@ -81,9 +76,8 @@
     font-size: 14pt;
     
 }
-.clearcut .shell .tablRight .aboutRead a{
-    text-align: left;
-    color: chartreuse;
+.clearcut .shell .aboutRead a{
+    color: green;
 }
 
 .clearcut .shell .tablMiddle .box{
@@ -115,6 +109,12 @@ display: inline-block;
 .clearcut .shell .review .reviewClient {
     margin: 15px;   
 }
+
+.clearcut .shell .aboutRead{
+    text-align: end;
+}
+
+
 .clearcut .footer{
     margin: auto;
     border: 1px solid black;
@@ -126,15 +126,18 @@ display: inline-block;
     margin-top: 30px;
     padding-left: 15px;
 }
+
 .clearcut .footer .heading{
     color: white;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid darkgray;
 }
 
 .clearcut .footer .companyDetails .info{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 11pt;
+    color: darkgray;
 }
 .clearcut .footer .companyDetails .email{
     color: green ; 
@@ -146,6 +149,7 @@ display: inline-block;
 
 .clearcut .footer .companyDetails .hours{
     font-size: 13pt;
+    color: darkgray;
 }
 
 .clearcut .footer .staySocial .boxImgLink{
@@ -163,18 +167,24 @@ display: inline-block;
     margin: 10px;
 }
 
-
 .clearcut .footer .blog .headingBlog {
     font-size: 13pt;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
 }
 
 .clearcut .footer .blog .textBlog {
     font-size: 11pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
 }
 
 .clearcut .footer .blog .boxToBlog {
     margin-bottom: 10px;
+}
+
+.clearcut .footer .blog .boxToRead{
+    text-align: end;
 }
 
 .clearcut .footer .blog .read {

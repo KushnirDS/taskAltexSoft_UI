@@ -4,7 +4,7 @@
 <div class='clearcut'>
     <div class='middle'>
         <div class='title'>
-            <img src='clearcut.jpg' alt='clearcut' id='imgClearcut' class='imgClearcut'>
+            <img src='./img/clearcut.jpg' alt='clearcut' id='imgClearcut' class='imgClearcut'>
             <div>
                 <a href="" id='goTo'>HOME</a>
             </div>
@@ -40,16 +40,16 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="./photo_one.jpg" alt="Первый слайд">
+                    <img class="d-block w-100" src="./img/photo_one.jpg" alt="Первый слайд">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./photo_two.jpg" alt="Второй слайд">
+                    <img class="d-block w-100" src="./img/photo_two.jpg" alt="Второй слайд">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./photo_three.jpg" alt="Третий слайд">
+                    <img class="d-block w-100" src="./img/photo_three.jpg" alt="Третий слайд">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="./photo_four.jpg" alt="четвертый слайд">
+                    <img class="d-block w-100" src="./img/photo_four.jpg" alt="четвертый слайд">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -69,7 +69,7 @@
                 <div>
                     <p class='titleAbaut'> A Litle Abaut Us </p>
                     <div class="imgAbaut">
-                        <img src='E:/source_JS/taskAltexSoft/strelka.jpg' alt="270x140" class="imgAbaut">
+                        <img src='./img/strelka.jpg' alt="270x140" class="imgAbaut">
                     </div>
                     <div class='boxToExposition'>
                         <p class='exposition'>
@@ -96,7 +96,7 @@
                     <p clas='titleAbaut'>Some of Our Services</p>
                     <div>
                         <div class="boxImgService">
-                            <img src='E:/source_JS/taskAltexSoft/js.png' alt="64x64" class='ImgService'>
+                            <img src='./img/js.png' alt="64x64" class='ImgService'>
                         </div>
                         <div class='ServiceTitle'>
                             <p>Service Title</p>
@@ -105,7 +105,7 @@
                     </div>
                     <div>
                         <div class="boxImgService">
-                            <img src='E:/source_JS/taskAltexSoft/js.png' alt="64x64" class='ImgService'>
+                            <img src='./img/js.png' alt="64x64" class='ImgService'>
                         </div>
                         <div class='ServiceTitle'>
                             <p>Service Title</p>
@@ -114,7 +114,7 @@
                     </div>
                     <div>
                         <div class="boxImgService">
-                            <img src='E:/source_JS/taskAltexSoft/js.png' alt="64x64" class='ImgService'>
+                            <img src='./img/js.png' alt="64x64" class='ImgService'>
                         </div>
                         <div class='ServiceTitle'>
                             <p>Service Title</p>
@@ -123,14 +123,16 @@
                     </div>
                     <div>
                         <div class="boxImgService">
-                            <img src='E:/source_JS/taskAltexSoft/js.png' alt="64x64" class='ImgService'>
+                            <img src='./img/js.png' alt="64x64" class='ImgService'>
                         </div>
                         <div class='ServiceTitle'>
                             <p>Service Title</p>
                             <p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean.</p>
                         </div>
                     </div>
-                    <a href="">View All Of Our Services>></a>
+                    <div class='aboutRead'>
+                        <a href="">View All Of Our Services>></a>
+                    </div>
                 </div>
             </div>
 
@@ -138,7 +140,7 @@
                 <div>
                     <p>What Our Clients Say</p>
                     <div class='sign'>
-                        <img src='E:/source_JS/taskAltexSoft/sign.jpg' alt="sign">
+                        <img src='./img/sign.jpg' alt="sign">
                     </div>
                     <div class='nameReview'>
                         <p>Tommy Tanker - CEO</p>
@@ -148,9 +150,11 @@
                         laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac
                         nullam pretium morbi lacus.
                     </div>
-                    <a href="">View This Project>></a><br>
+                    <div class='aboutRead'>
+                        <a href="">View This Project>></a><br>
+                    </div>
                     <div class='sign'>
-                        <img src='E:/source_JS/taskAltexSoft/sign.jpg' alt="sign">
+                        <img src='./img/sign.jpg' alt="sign">
                     </div>
                     <div class='nameReview'>
                         <p>Tommy Tanker - CEO</p>
@@ -160,7 +164,9 @@
                         laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac
                         nullam pretium morbi lacus.
                     </div>
-                    <a href="">View This Project>></a><br>
+                    <div class='aboutRead'>
+                        <a href="">View This Project>></a><br>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,7 +174,7 @@
     <div class='footer'>
         <footer>
             <div class='companyDetails'>
-                <span class='heading'>Company Details</span>
+                <p class='heading'>Company Details</p>
                 <hr>
                 <span class='info'>Company Name</span><br>
                 <span class='info'>Street Name&Number</span><br>
@@ -186,37 +192,41 @@
             <div class='staySocial'>
                 <p class='heading'>Stay Social</p>
                 <hr>
-                <div class='boxImgLink'><img src='E:/source_JS/taskAltexSoft/img/iconlinkedin.png' alt='linkedin'
-                        class='ImgLink'></div><span><a href="" class='linkedin'>Get linked up in linkedin</a></span>
+                <div class='boxImgLink'><img src='./img/iconlinkedin.png' alt='linkedin' class='ImgLink'></div><span><a
+                        href="" class='linkedin'>Get linked up in linkedin</a></span>
                 <hr>
-                <div class='boxImgLink'><img src='E:/source_JS/taskAltexSoft/img/icontwitter.png' alt='linkedin'
-                    class='ImgLink'></div><span><a href="" class='linkedin'>Keep up with our Tweets</a></span>
+                <div class='boxImgLink'><img src='./img/iconlinkedin.png' alt='linkedin' class='ImgLink'></div><span><a
+                        href="" class='linkedin'>Keep up with our Tweets</a></span>
                 <hr>
-                <div class='boxImgLink'><img src='E:/source_JS/taskAltexSoft/img/iconpinterest.png' alt='linkedin'
-                    class='ImgLink'></div><span><a href="" class='linkedin'>Photos on Pinterest</a></span>
+                <div class='boxImgLink'><img src='./img/iconpinterest.png' alt='linkedin' class='ImgLink'></div><span><a
+                        href="" class='linkedin'>Photos on Pinterest</a></span>
                 <hr>
-                <div class='boxImgLink'><img src='E:/source_JS/taskAltexSoft/img/iconfinder.png' alt='linkedin'
-                    class='ImgLink'></div><span><a href="" class='linkedin'>RSS Feed</a></span>
+                <div class='boxImgLink'><img src='./img/iconpinterest.png' alt='linkedin' class='ImgLink'></div><span><a
+                        href="" class='linkedin'>RSS Feed</a></span>
                 <hr>
-
-
             </div>
             <div class='blog'>
                 <p class='heading'>From The Blog</p>
                 <hr>
                 <div class='boxToBlog'>
                     <span class='headingBlog'>Blog Post Title</span><br>
-                <span class='textBlog'>Posted by admin on 00.00. 000
-                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesgue sed facilispede estibulum.
-                </span> <br>
-                <a href="" class='read'>Read More>></a>
+                    <span class='textBlog'>Posted by admin on 00.00. 000
+                        Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesgue sed
+                        facilispede estibulum.
+                    </span> <br>
+                    <div class='boxToRead'>
+                        <a href="" class='read'>Read More>></a>
+                    </div>
                 </div>
                 <div class='boxToBlog'>
                     <span class='headingBlog'>Blog Post Title</span><br>
-                <span class='textBlog'>Posted by admin on 00.00. 000
-                    Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesgue sed facilispede estibulum.
-                </span> <br>
-                <a href="" class='read'>Read More>></a>
+                    <span class='textBlog'>Posted by admin on 00.00. 000
+                        Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesgue sed
+                        facilispede estibulum.
+                    </span> <br>
+                    <div class='boxToRead'>
+                        <a href="" class='read'>Read More>></a>
+                    </div>
                 </div>
             </div>
             <div class='contact'>
@@ -230,7 +240,7 @@
         </footer>
     </div>
 </div>
-<link rel="stylesheet" href="taskAltexSoft.css">
+<link rel="stylesheet" href="./taskAltexSoft.css">
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
