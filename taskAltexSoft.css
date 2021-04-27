@@ -1,0 +1,212 @@
+
+.clearcut{
+    /* border: 5px solid black; */
+    width: 1200px;
+    margin: auto;
+    background-color: gray;
+}
+
+.clearcut .middle {
+    background-color: white;
+    width: 1150;
+    margin: auto;
+}
+.clearcut .title .imgClearcut  {
+    margin-right: 200px;
+    display: inline-block;
+}
+
+.clearcut .title div{
+    /* border: 1px solid black; */
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.clearcut .middle .title #goTo {
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clearcut .title div:hover{
+    background-color: chartreuse;
+}
+
+.clearcut hr{
+    color: chartreuse;
+}
+
+.clearcut .foreword {
+    text-align: center;
+    font-style: italic;
+    font-size: 14pt;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.clearcut .carousel, .carousel-inner{
+    width: 920px; 
+    height: 350px;
+    margin: auto;
+}
+
+
+.clearcut .shell .tablRight, .tablMiddle, .review  {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 375px;
+    /* height: 500px; */
+    margin-top: 30px;
+}
+
+.clearcut .shell .titleAbaut {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+.clearcut .shell .tablRight .imgAbaut {
+    width: 270px;
+    height: 140px;
+    margin: auto;
+    /* margin-top: 30px; */
+}
+
+.clearcut .shell .tablRight .boxToExposition {
+    margin: 15px;
+}
+
+.clearcut .shell .tablRight .boxToExposition .exposition {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    
+}
+.clearcut .shell .tablRight .aboutRead a{
+    text-align: left;
+    color: chartreuse;
+}
+
+.clearcut .shell .tablMiddle .box{
+    display: inline;
+    margin-top: -100px;
+}
+
+.clearcut .shell .tablMiddle .boxImgService{
+display: inline;
+margin-top: -100px;
+}
+
+.clearcut .shell .tablMiddle .ImgService{
+    width: 64px;
+    height: 64px;
+    margin-top: -100px;
+}
+
+.clearcut .shell .tablMiddle .ServiceTitle{
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 300px;
+}
+
+.clearcut .shell .review .sign, .nameReview{
+display: inline-block;
+}
+
+.clearcut .shell .review .reviewClient {
+    margin: 15px;   
+}
+.clearcut .footer{
+    margin: auto;
+    border: 1px solid black;
+    width: 1150px;
+}
+.clearcut .footer .companyDetails, .staySocial, .blog, .contact {
+    display: inline-block;
+    width: 270px;
+    margin-top: 30px;
+    padding-left: 15px;
+}
+.clearcut .footer .heading{
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clearcut .footer .companyDetails .info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11pt;
+}
+.clearcut .footer .companyDetails .email{
+    color: green ; 
+}
+
+.clearcut .footer .companyDetails .email:active{
+    color: red ; 
+}
+
+.clearcut .footer .companyDetails .hours{
+    font-size: 13pt;
+}
+
+.clearcut .footer .staySocial .boxImgLink{
+    display: inline-block;
+}
+
+.clearcut .footer .staySocial .linkedin{
+    color: green;
+}
+.clearcut .footer .staySocial .linkedin:active{
+    color: red;
+}
+
+.clearcut .footer .staySocial .boxImgLink .ImgLink{
+    margin: 10px;
+}
+
+
+.clearcut .footer .blog .headingBlog {
+    font-size: 13pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.clearcut .footer .blog .textBlog {
+    font-size: 11pt;
+}
+
+.clearcut .footer .blog .boxToBlog {
+    margin-bottom: 10px;
+}
+
+.clearcut .footer .blog .read {
+    color: green;
+}
+
+.clearcut .footer .blog .read:active {
+    color: red;
+}
+
+.clearcut .footer .contact .inputName {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.clearcut .footer .contact .inputEmail {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.clearcut .footer .contact .message {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.clearcut .footer .contact .buttonSub {
+    background-color: green;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
