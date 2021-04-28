@@ -30,9 +30,6 @@
     background-color: chartreuse;
 }
 
-.clearcut hr{
-    color: chartreuse;
-}
 
 .clearcut .foreword {
     text-align: center;
@@ -79,8 +76,8 @@
     font-size: 13pt;
     
 }
-.clearcut .shell .aboutvad a{
-    color: green;
+.clearcut .shell .aboutRead a{
+    color: chartreuse;
 }
 
 .clearcut .shell .tablMiddle .box{
