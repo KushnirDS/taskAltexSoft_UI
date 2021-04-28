@@ -1,8 +1,8 @@
 
 .clearcut{
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
-    background-color: black;
+    background-color: #313131;
 }
 
 .clearcut .middle {
@@ -10,14 +10,22 @@
     width: 1150;
     margin: auto;
 }
+
+.clearcut .title   {
+    border-bottom: 1px solid chartreuse;
+}
+
 .clearcut .title .imgClearcut  {
     margin-right: 200px;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .clearcut .title div{
     display: inline-block;
     margin-left: 20px;
+    padding-top: 10px;
+    vertical-align: top;
+    height: 60px;
 }
 
 .clearcut .middle .title #goTo {
@@ -40,6 +48,10 @@
     margin-bottom: 30px;
 }
 
+.clearcut .boxCarousel {
+    border-bottom: 1px solid chartreuse;
+    padding-bottom: 30px;;
+}
 .clearcut .carousel, .carousel-inner{
     width: 920px; 
     height: 350px;
