@@ -59,7 +59,8 @@
 
 .clearcut .shell .titleAbaut {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 14pt;
+    font-size: 16pt;
+    padding-left: 15px;
 }
 
 .clearcut .shell .tablRight .imgAbaut {
@@ -73,12 +74,12 @@
     margin: 15px;
 }
 
-.clearcut .shell .tablRight .boxToExposition .exposition {
+.clearcut .shell .exposition {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 14pt;
+    font-size: 13pt;
     
 }
-.clearcut .shell .aboutRead a{
+.clearcut .shell .aboutvad a{
     color: green;
 }
 
@@ -109,7 +110,9 @@ display: inline-block;
 }
 
 .clearcut .shell .review .reviewClient {
-    margin: 15px;   
+    margin: 15px;
+    font-size: 11pt;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .clearcut .shell .aboutRead{
