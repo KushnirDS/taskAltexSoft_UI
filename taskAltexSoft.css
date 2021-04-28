@@ -52,6 +52,7 @@
     border-bottom: 1px solid chartreuse;
     padding-bottom: 30px;;
 }
+
 .clearcut .carousel, .carousel-inner{
     width: 920px; 
     height: 350px;
@@ -131,7 +132,6 @@ display: inline-block;
 
 .clearcut .footer{
     margin: auto;
-    border: 1px solid black;
     width: 1150px;
 }
 .clearcut .footer .companyDetails, .staySocial, .blog, .contact {
