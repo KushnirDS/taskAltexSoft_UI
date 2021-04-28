@@ -53,6 +53,8 @@
     display: inline-block;
     width: 375px;
     margin-top: 30px;
+    vertical-align: top;
+    
 }
 
 .clearcut .shell .titleAbaut {
@@ -122,6 +124,7 @@ display: inline-block;
 }
 .clearcut .footer .companyDetails, .staySocial, .blog, .contact {
     display: inline-block;
+    vertical-align: top;
     width: 270px;
     margin-top: 30px;
     padding-left: 15px;
