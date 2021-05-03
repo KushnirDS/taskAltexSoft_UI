@@ -226,6 +226,7 @@ margin-bottom: 15px;
     flex-direction: row;
     width: 1150;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .clearcut .footer .companyDetails, .staySocial, .blog, .contact {
@@ -281,12 +282,10 @@ margin-bottom: 15px;
     font-family: "Georgia";
     color: rgb(153, 153, 153);
     line-height: 1.6;
-
 }
 
 .clearcut .footer .staySocial .boxToLinked {
-   
-    border-bottom: 1px solid rgb(56, 56, 56);
+   border-bottom: 1px solid rgb(56, 56, 56);
 }
 
 .clearcut .footer .staySocial .boxImgLink {
@@ -373,7 +372,7 @@ margin-bottom: 15px;
 
 .clearcut .footer .contact .message {
     width: 100%;
-    height: 150px;
+    height: 120px;
     margin-bottom: 10px;
     border-radius: 5px;
     font-size: 13px;
@@ -390,6 +389,29 @@ margin-bottom: 15px;
     font-family: "Georgia";
     color: rgb(49, 49, 49);
     line-height: 1.583;
-
     border-radius: 5px;
+}
+
+.clearcut .boxCopyright {
+    border-top: 1px solid rgb(56, 56, 56);
+    width: 1150;
+    margin: auto;
+    
+}
+
+.clearcut .boxCopyright .copy, .temp{
+    padding-top: 10px;
+    display: inline-block;
+    width: 570px;
+}
+
+.clearcut .boxCopyright .copyright, .template {
+    font-size: 12px;
+    font-family: "Georgia";
+    color: rgb(153, 153, 153);
+    line-height: 1;
+}
+
+.clearcut .boxCopyright .temp{
+    text-align: end;
 }
