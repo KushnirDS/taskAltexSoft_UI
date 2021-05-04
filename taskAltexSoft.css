@@ -96,27 +96,27 @@ body {
 .clearcut .boxCarousel {
     width: 1100px;
     border-bottom: 1px solid rgb(167, 195, 83);
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     margin: auto;
 }
 
-.carousel-indicators {
+.clearcut .carousel .carousel-indicators {
     margin: -30px;
-    height: 50px;
-    color: green;
+    height: 0px;
+    
 }
 
-.carousel-indicators ol {
-    /* width: 100%; */
-    color: green
+.clearcut .carousel .carousel-indicators ol {
+    width: 100%;
 }
 
 
-.carousel-indicators li{
-    height: 3px !important;
-    border-radius: 0px !important;
+.clearcut .carousel .carousel-indicators li{
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50% !important;
     width: 25%;
-    background-color: green;
+    background-color: rgb(167, 195, 83);
 }
 
 .carousel-caption{
@@ -148,6 +148,7 @@ body {
     font-family: "Georgia";
     color: rgb(255, 255, 255);
     line-height: 1.4;
+    padding-top: 5px;
 }
 
 .clearcut .carousel .carousel-control-prev-icon {
@@ -168,7 +169,6 @@ body {
     background-size: 60%, 60%;
     border-radius: 50%;
     border: 5px solid rgb(167, 195, 83);
-    color: red;
 }
 
 .clearcut .carousel, .carousel-inner{
