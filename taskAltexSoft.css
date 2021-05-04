@@ -161,9 +161,11 @@ body {
     width: 50px;
     outline: rgb(167, 195, 83) !important;
     background-color: black;
-    background-size: 60%, 60%;
+    opacity: 1 !important;
+    background-size: 40%, 40%;
     border-radius: 50%;
     border: 5px solid rgb(167, 195, 83);
+    background-image: url(./img/left.png);
 }
 
 .clearcut .carousel .carousel-control-next-icon {
@@ -171,9 +173,10 @@ body {
     width: 50px;
     outline: rgb(167, 195, 83) !important;
     background-color: black;
-    background-size: 60%, 60%;
+    background-size: 40%, 40%;
     border-radius: 50%;
     border: 5px solid rgb(167, 195, 83);
+    background-image: url(./img/right.png);
 }
 
 .clearcut .carousel, .carousel-inner{
