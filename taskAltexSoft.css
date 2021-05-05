@@ -228,9 +228,11 @@ body {
     font-family: "Georgia";
     color: rgb(167, 195, 83);
     line-height: 1;
-
 }
 
+.clearcut .shell a:active {
+    color: red;
+}
 .clearcut .shell .tablMiddle .shellServiceTitle {
     display: flex;
     flex-direction: row;    
