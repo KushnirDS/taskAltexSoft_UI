@@ -221,10 +221,6 @@ body {
     line-height: 1.2;
 }
 
-/* .clearcut .shell .tablRight .boxToExposition {
-    margin: 15px;
-} */
-
 .clearcut .shell .aboutRead a{
     font-size: 13px;
     font-family: "Georgia";
@@ -309,8 +305,6 @@ margin-bottom: 15px;
 }
 
 .clearcut .footer .companyDetails, .staySocial, .blog, .contact {
-    /* display: flex;
-    flex-direction: column; */
     vertical-align: top;
     width: 300px;
     margin-top: 30px;
