@@ -78,10 +78,12 @@ body {
     background-color:  rgb(167, 195, 83);
 }
 .clearcut .title .forHover:hover #goTo{
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);   
 }
 
+.clearcut .title .forHover #goTo:active{
+    color: rebeccapurple;   
+}
 .clearcut .foreword {
     font-size: 22px;
     text-align: center;
@@ -341,13 +343,17 @@ margin-bottom: 15px;
     color: rgb(153, 153, 153);
     line-height: 1.6;
 }
+.clearcut .footer .companyDetails .tel:active {
+    color: red;
+}
 
 .clearcut .footer .companyDetails .email{
     color: rgb(167, 195, 83) ; 
 }
 
+
 .clearcut .footer .companyDetails .email:active{
-    color: red ; 
+    color: red !important; 
 }
 
 .clearcut .footer .companyDetails .hours{
@@ -370,8 +376,8 @@ margin-bottom: 15px;
     font-family: "Georgia";
     color: rgb(167, 195, 83);
     line-height: 1.2;
-
 }
+
 .clearcut .footer .staySocial .linkedin:active{
     color: red;
 }
@@ -433,6 +439,10 @@ margin-bottom: 15px;
     border: none;
 }
 
+.clearcut .footer .contact .inputName:focus {
+    background-color: darkgrey;
+}
+
 .clearcut .footer .contact .inputEmail {
     width: 100%;
     margin-bottom: 10px;
@@ -443,6 +453,10 @@ margin-bottom: 15px;
     line-height: 1.583;
     background-color: rgb(56, 56, 56);
     border: none;
+}
+
+.clearcut .footer .contact .inputEmail:focus{
+    background-color: darkgrey;
 }
 
 .clearcut .footer .contact .message {
@@ -458,6 +472,11 @@ margin-bottom: 15px;
     border: none;
 }
 
+.clearcut .footer .contact .message:focus {
+    background-color: darkgrey;
+}
+
+
 .clearcut .footer .contact .buttonSub {
     background-color: rgb(167, 195, 83);
     border: none;
@@ -470,6 +489,10 @@ margin-bottom: 15px;
 
 .clearcut .footer .contact .buttonSub:hover {
     background-color:green;
+}
+
+.clearcut .footer .contact .buttonSub:active {
+    background-color:red;
 }
 
 .clearcut .boxCopyright {
